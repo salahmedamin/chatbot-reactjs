@@ -1,0 +1,16 @@
+/* ./src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body{
+  overflow-x: hidden;
+}
+
+.hidescrollbar::-webkit-scrollbar-thumb {
+  background: #2563eb;
+}
+.hidescrollbar::-webkit-scrollbar {
+  height: 1px; /* Remove scrollbar space */
+  width: 6px;
+  background: transparent; /* Optional: just make scrollbar invisible */
+}
